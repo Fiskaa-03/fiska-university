@@ -71,7 +71,7 @@
                             <td>{{ student.contact }}</td>
                             <td>{{ student.status }}</td>
                             <td>
-                                 <a href="{% url 'students-form' student.id %}">Edit</a> | <a href="#">Delete</a>
+                                 <a href="{% url 'students-form' student.id %}"><i class="fa-regular fa-pen-to-square edit"></i></a> | <a href="#"><i class="fa-solid fa-trash delete"></i></a>
                             </td>
                         </tr>
                         {% endfor %}
