@@ -78,6 +78,24 @@ form {
     margin-top: 15px;
 }
 
+.form-login .mb-3 p {
+    color: #af0000;
+    font-size: .9rem;
+}
+
+.form-login .alert-block {
+    width: 387px;
+}
+
+.form-login .alert-block ul {
+    list-style: none;
+}
+
+.form-login .alert-block ul li {
+    color: #af0000;
+    font-size: .9rem;
+}
+
 .form-login button {
     width: 123px;
     padding: 8px;
